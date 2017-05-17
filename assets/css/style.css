@@ -40,6 +40,7 @@ h1 span {
     width: 100%; 
     padding: 0;
     background-color: #000;
+    z-index: 1;
 
 }
 
@@ -154,12 +155,13 @@ footer {
     text-align: center;
     padding-top: 15px;
     font-size: 12px;
+    z-index: 1;
    
 }
 
 /* Portfolio page */
 
-#table td {
+.table td {
 
     width: 50%%;
     height: 80px;
@@ -170,7 +172,7 @@ footer {
 
 
 /* centers table */
-#table {
+.table {
 
     width: 100%;
     margin: 0 auto;
@@ -181,14 +183,24 @@ footer {
 .portext {
 
     background-color: rgba(163, 163, 163, 1);
-    width: 180px;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    width: 230px;
+    padding: 10px;
+    margin-right: 0;
     font-family: Georgia, Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    position: relative;
+    left: 11px;
+    bottom: 70px;
+    
+
+}
+
+.portimg {
+
+    width: 250px;
+    
 
 }
 
